@@ -1,6 +1,9 @@
 import React from 'react'
-import { WiCloud } from 'react-icons/wi'
 import styled from '@emotion/styled'
+
+import Location from './Location'
+import Icon from './Icon'
+import Condition from './Condition'
 
 const WeatherCard = (props) => {
 	const Card = styled.div`
@@ -17,16 +20,10 @@ const WeatherCard = (props) => {
 	`
 
 	return (
-		<Card className='card'>
-			<div className='location'>
-				<h1 className='city'>Sydney</h1>
-				<h3 className='country'>AU</h3>
-			</div>
-
-			<WiCloud className='icon' />
-
-			<h1 className='temp'>20 °C</h1>
-			<h3 className='cond'>Clouds</h3>
+		<Card>
+			<Location />
+			<Icon />
+			<Condition />
 		</Card>
 	)
 }

@@ -5,24 +5,6 @@
 	color: white;
 }
 
-.location {
-	text-align: center;
-}
-
-.city {
-	font-family: 'Merriweather', sans-serif;
-	font-size: 1.6rem;
-}
-
-.country {
-	font-family: 'Fira Sans', sans-serif;
-	font-size: 1.1rem;
-}
-
-.icon {
-	font-size: 3rem;
-}
-
 .temp {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 2rem;
